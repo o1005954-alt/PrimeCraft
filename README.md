@@ -68,3 +68,5 @@ If you find PrimeCraft useful, consider giving the repository a ⭐ on GitHub an
 ---
 
 **PrimeCraft — Less clicking. More creating. ⚡**
+
+I like to Thank 𝖏𝖚𝖘𝖙 𝕬𝖓𝖘𝖍 For the Help
