@@ -1,3 +1,5 @@
+![Uploading primeCraft_ Shortcuts Made Simple.png…]()
+
 # ⚡ PrimeCraft — Shortcuts Made Simple
 
 **PrimeCraft** is an all-in-one extension for **EffectCraft**, designed to make your editing workflow faster, smoother, and more efficient. Perform common editing tasks with simple one-click actions instead of navigating through menus or memorizing keyboard shortcuts.
