@@ -39,8 +39,7 @@ PrimeCraft brings frequently used editing actions together in one convenient int
 
 ## 📸 Preview
 
-![PrimeCraft — Shortcuts Made Simple](https://github.com/user-attachments/assets/3b81d18e-1bdd-4b08-a769-b0f80ea907f1)
-
+![Uploading primeCraft_ Shortcuts Made Simple.png…]()
 
 ## 🚀 Installation
 
