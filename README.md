@@ -1,32 +1,64 @@
-PrimeCraft is your all-in-one Effectcraft extension designed to speed up your workflow with one-click actions. No more memorizing shortcuts or searching for the right tool—just click, and focus on creating! Perfect for beginners or experienced editors!!
+# ⚡ PrimeCraft — Shortcuts Made Simple
 
-<img width="1983" height="793" alt="primeCraft_ Shortcuts Made Simple" src="https://github.com/user-attachments/assets/371c7622-fb2a-4109-a434-85f5ed7ca480" />
+**PrimeCraft** is an all-in-one extension for **EffectCraft**, designed to make your editing workflow faster, smoother, and more efficient. Perform common editing tasks with simple one-click actions instead of navigating through menus or memorizing keyboard shortcuts.
 
-The goal is to have as many editors have this tool in their effectcraft workflow because there's only positives to it and NO downsides to having it.
+Whether you're a beginner or an experienced editor, PrimeCraft helps you spend less time on repetitive tasks and more time creating.
 
+## ✨ Features
 
-⚡ One-Click Actions That Save Hours
+### ⚡ One-Click Actions
+- **Pre-compose layers** with a single click.
+- **Center layers** quickly and easily.
+- **Save frames** instantly.
+- **Create layers** including Solids, Nulls, Shape Layers, and Cameras.
+- **Freeze frames** without navigating through menus.
+- **Mirror layers** with quick actions.
+- **Apply adjustments** to speed up your workflow.
+- **Apply Gaussian Blur and Camera Lens Blur** instantly.
 
-✔ Pre-Comp, Center Layers, Save Frames Instantly
-✔ Add Solids, Nulls, Shape Layers, and Cameras in One Click
-✔ Quickly Freeze Frames, Mirror Layers, and Apply Adjustments
-✔ Instant Gaussian & Camera Lens Blur with a Single Click
-✔ Designed for Speed—No More Repetitive Clicks
+### 🎨 Designed for Creators
+- **Faster workflow** — reduce repetitive clicks and unnecessary menu navigation.
+- **Simple interface** — access useful tools without memorizing shortcuts.
+- **Smooth interactions** — hover effects and click animations for a responsive experience.
+- **Beginner-friendly** — easy to use while remaining useful for experienced editors.
 
-🔹 Built for Creators Who Move Fast
+## 🎯 Why PrimeCraft?
 
-✅ Eliminate Tedious Steps – No more right-clicking through endless menus.
-✅ Boost Your Workflow – Edit at the speed of your creativity.
-✅ Precision & Simplicity – Every tool you need, exactly where you need it.
+PrimeCraft brings frequently used editing actions together in one convenient interface.
 
-🎯 Why PrimeTools?
+- Spend less time searching for tools.
+- Speed up repetitive editing tasks.
+- Keep your workflow simple and organized.
+- Focus on creativity rather than navigating menus.
 
-💡 No more searching for tools—just click and create.
-⚡ Perfect for motion designers, video editors, and VFX artists.
-🎬 Works seamlessly inside After Effects—designed to save you time.
-✨ Amazing UI with hover-over effects and smooth click animations.
+## 🎬 Compatibility
 
-🔥 Get PrimeCraft today & improve your editing workflow!
+- **Platform:** EffectCraft
+- **Workflow:** Video Editing, Motion Design, and VFX
 
-All the Rights goes to naughtyyjuan
+## 📸 Preview
 
+_Add screenshots or a GIF of PrimeCraft in action here._
+
+## 🚀 Installation
+
+1. Download or clone this repository.
+2. Follow the installation instructions provided for your EffectCraft setup.
+3. Launch EffectCraft and open PrimeCraft.
+4. Start speeding up your editing workflow!
+
+> **Note:** Installation steps may vary depending on your EffectCraft version and extension setup.
+
+## 🙌 Credits
+
+**Original creator:** [naughtyyjuan](https://github.com/naughtyyjuan)
+
+All original rights and credit belong to the original creator. Please refer to the original project for its licensing terms and permissions.
+
+## ⭐ Support
+
+If you find PrimeCraft useful, consider giving the repository a ⭐ on GitHub and sharing it with other editors!
+
+---
+
+**PrimeCraft — Less clicking. More creating. ⚡**
