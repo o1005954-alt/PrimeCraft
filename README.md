@@ -1,3 +1,4 @@
+<img width="1983" height="793" alt="primeCraft_ Shortcuts Made Simple" src="https://github.com/user-attachments/assets/b8dacf85-d53a-4f7c-b074-a496e3c0b28c" />
 
 # ⚡ PrimeCraft — Shortcuts Made Simple
 
@@ -39,7 +40,10 @@ PrimeCraft brings frequently used editing actions together in one convenient int
 
 ## 📸 Preview
 
-<img width="1983" height="793" alt="primeCraft_ Shortcuts Made Simple" src="https://github.com/user-attachments/assets/ce8198c2-d6de-4479-916d-f20e9a70c022" />
+<img width="337" height="417" alt="Screenshot 1448-05-18 at 9 33 29 PM" src="https://github.com/user-attachments/assets/d66cdebf-2b98-497a-83a1-a2f2f0e78f49" />
+<img width="337" height="417" alt="Screenshot 1448-05-18 at 9 33 35 PM" src="https://github.com/user-attachments/assets/5f29b35c-74b8-464a-a602-e295144a7e7f" />
+
+
 
 
 ## 🚀 Installation
