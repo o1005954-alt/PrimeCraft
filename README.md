@@ -1,5 +1,7 @@
 PrimeCraft is your all-in-one Effectcraft extension designed to speed up your workflow with one-click actions. No more memorizing shortcuts or searching for the right tool—just click, and focus on creating! Perfect for beginners or experienced editors!!
 
+<img width="1983" height="793" alt="primeCraft_ Shortcuts Made Simple" src="https://github.com/user-attachments/assets/371c7622-fb2a-4109-a434-85f5ed7ca480" />
+
 The goal is to have as many editors have this tool in their effectcraft workflow because there's only positives to it and NO downsides to having it.
 
 
