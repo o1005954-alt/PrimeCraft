@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hashem | Developer Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .light .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 light:bg-slate-50 light:text-slate-900 min-h-screen font-sans antialiased selection:bg-indigo-500 selection:text-white transition-colors duration-300">
+
+    <!-- Ambient Background Blobs -->
+    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full overflow-hidden pointer-events-none -z-10">
+        <div class="absolute -top-40 left-10 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl"></div>
+        <div class="absolute top-1/3 -right-20 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 backdrop-blur-md border-b border-slate-800/80 light:border-slate-200/80 light:bg-white/80">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-extrabold text-xl tracking-tight text-white light:text-slate-900 flex items-center gap-2">
+                <i class="fa-solid fa-cube text-indigo-500"></i>
+                <span>Hashem<span class="text-indigo-500">.dev</span></span>
+            </a>
+
+            <!-- Nav Links & Theme Toggle -->
+            <div class="flex items-center gap-6">
+                <nav class="hidden md:flex gap-6 text-sm font-medium text-slate-400 light:text-slate-600">
+                    <a href="#about" class="hover:text-white light:hover:text-slate-900 transition-colors">About</a>
+                    <a href="#projects" class="hover:text-white light:hover:text-slate-900 transition-colors">Projects</a>
+                    <a href="#contact" class="hover:text-white light:hover:text-slate-900 transition-colors">Contact</a>
+                </nav>
+
+                <button id="themeToggle" class="p-2 rounded-lg bg-slate-900 border border-slate-800 light:bg-slate-100 light:border-slate-200 text-slate-400 hover:text-white light:hover:text-slate-900 transition-all">
+                    <i id="themeIcon" class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-24 md:py-32 flex flex-col items-center text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-6">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Active Projects Showcase
+        </div>
+        
+        <h1 class="text-4xl md:text-6xl font-black tracking-tight text-white light:text-slate-900 max-w-3xl leading-tight mb-6">
+            Building custom gaming mechanics & <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">technical projects</span>.
+        </h1>
+        
+        <p class="text-lg text-slate-400 light:text-slate-600 max-w-2xl mb-8 leading-relaxed">
+            Welcome to my official GitHub showcase. Explore my latest developments, server add-ons, hardware scripts, and open-source releases.
+        </p>
+
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#projects" class="px-6 py-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-lg shadow-indigo-500/25 transition-all flex items-center gap-2">
+                <i class="fa-solid fa-layer-group"></i> Explore Projects
+            </a>
+            <a href="https://github.com" target="_blank" class="px-6 py-3 rounded-lg bg-slate-900 border border-slate-800 light:bg-white light:border-slate-300 light:text-slate-800 hover:bg-slate-800 font-medium transition-all flex items-center gap-2">
+                <i class="fa-brands fa-github"></i> GitHub Profile
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-16">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+            <div>
+                <h2 class="text-3xl font-bold text-white light:text-slate-900 mb-2">Featured Projects</h2>
+                <p class="text-slate-400 light:text-slate-600">Explore Primecraft and Deep Glow mechanics.</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap gap-2" id="filterButtons">
+                <button onclick="filterCategory('all')" class="filter-btn active px-4 py-1.5 rounded-full text-sm font-medium bg-indigo-600 text-white transition-all">All</button>
+                <button onclick="filterCategory('minecraft')" class="filter-btn px-4 py-1.5 rounded-full text-sm font-medium bg-slate-900 border border-slate-800 light:bg-slate-200 light:border-slate-300 text-slate-400 light:text-slate-700 hover:text-white transition-all">Minecraft Packs</button>
+                <button onclick="filterCategory('visuals')" class="filter-btn px-4 py-1.5 rounded-full text-sm font-medium bg-slate-900 border border-slate-800 light:bg-slate-200 light:border-slate-300 text-slate-400 light:text-slate-700 hover:text-white transition-all">Gfx & Visuals</button>
